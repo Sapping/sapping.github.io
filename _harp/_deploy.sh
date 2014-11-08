@@ -12,6 +12,6 @@ cd ..
 mv _README.md README.md
 
 # commit to the repo and push to github
-git add .
-git commit -m "Deploy."
-git push
+#git add .
+#git commit -m "Deploy."
+#git push
