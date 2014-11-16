@@ -1,13 +1,16 @@
 doctype
 html
+    block head
     head
         link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
         link(rel="stylesheet",href="/main.css")
         meta(name="theme-color",content="#156a8b")
         title Lucas Melin
+    block body
     body
         //a(id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle")
         //   i(class="fa fa-bars")
+        block navigation
         nav(class="navbar navbar-inverse navbar-static-top" role="navigation")
             div(class="container-fluid")
                 div(class="navbar-header")
@@ -19,6 +22,7 @@ html
                     a(class="navbar-brand" href="/index") Lucas
         block content
             != yield
+    block footer
     #footer
         p.text-center
             a(href="https://plus.google.com/+LucasMelin/")
