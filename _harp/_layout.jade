@@ -1,11 +1,27 @@
 doctype
 html
     head
-        link(rel="stylesheet" href="/main.css")
+        link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
+        link(rel="stylesheet",href="/main.css")
         meta(name="theme-color",content="#156a8b")
         title Lucas Melin
     body
-        navigation
+        //a(id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle")
+        //   i(class="fa fa-bars")
+        nav(class="navbar navbar-inverse navbar-static-top" role="navigation")
+            div(class="container-fluid")
+                div(class="navbar-header")
+                    button(type="button",class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed")
+                        span(class="sr-only") Toggle navigation
+                        span(class="icon-bar")
+                        span(class="icon-bar")
+                        span(class="icon-bar")
+                    a(class="navbar-brand" href="/index") Lucas
         != yield
     #footer
-        p.text-center Copyright &copy; Lucas Melin 2014
+        p.text-center
+            a(href="https://plus.google.com/+LucasMelin/")
+                i(class="fa fa-google-plus-square fa-lg",style="padding-right:4px;")
+            a(href="http://instagram.com/sapping")
+                i(class="fa fa-instagram fa-lg",style="padding-right:4px;")
+        p.text-center(style="font-size:80%;") Copyright &copy; Lucas Melin 2014
