@@ -4,22 +4,31 @@ html
     head
         link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
         link(rel="stylesheet",href="/main.css")
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
+        script(src="/js/bootstrap.min.js")
         meta(name="theme-color",content="#156a8b")
         title Lucas Melin
     block body
     body
-        //a(id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle")
-        //   i(class="fa fa-bars")
         block navigation
-        nav(class="navbar navbar-inverse navbar-static-top" role="navigation")
-            div(class="container-fluid")
-                div(class="navbar-header")
-                    button(type="button",class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed")
-                        span(class="sr-only") Toggle navigation
-                        span(class="icon-bar")
-                        span(class="icon-bar")
-                        span(class="icon-bar")
-                    a(class="navbar-brand" href="/index") Lucas
+            nav(class="navbar navbar-inverse navbar-static-top" role="navigation")
+                div(class="container-fluid")
+                    // Brand and toggle button
+                    div(class="navbar-header")
+                        button(type="button",class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-header-collapse")
+                            span(class="sr-only") Toggle navigation
+                            span(class="icon-bar")
+                            span(class="icon-bar")
+                            span(class="icon-bar")
+                        a(class="navbar-brand" href="/") Lucas
+                    // Nav links that get toggled
+                    div(class="collapse navbar-collapse" id="nav-header-collapse")
+                        ul(class="nav navbar-nav")
+                            li(class="active")
+                                a(href="#") Home
+                                    span(class="sr-only") (current)
+                            li
+                                a(href="/journal") Blog Posts
         block content
             != yield
     block footer

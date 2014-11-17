@@ -1,5 +1,14 @@
 {
     "meryra-ii":{
-        "title": "Meryra II, right hand of the “Heretic King”"
+        "title": "Meryra II, right hand of the “Heretic King”",
+        "date": "2014-11-17",
+        "first-published":{
+            "site": "sapping.tumblr.com",
+            "date": "2011-01-11"
+            }
+    },
+    "including-javascript-libraries":{
+        "title": "A lesson learned in including javascript libraries properly",
+        "date": "2014-11-17"
     }
 }

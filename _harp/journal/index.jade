@@ -5,4 +5,5 @@ h1.center Journal Posts
         each article, slug in public.journal._data
             li
                 a(href="/journal/#{ slug }")
-                    h4 #{ article.title }
+                    h3 #{ article.title }
+                    h4 Published #{ article.date }
