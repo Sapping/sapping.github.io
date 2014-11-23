@@ -6,4 +6,7 @@ h1.center Journal Posts
             li
                 a(href="/journal/#{ slug }")
                     h3 #{ article.title }
-                    h4 Published #{ article.date }
+                h4 Published #{ article.date }
+                    if article.firstpostdate
+                        |, originally posted on #{ article.firstpostdate}
+

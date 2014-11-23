@@ -4,11 +4,34 @@
         "date": "2014-11-17",
         "first-published":{
             "site": "sapping.tumblr.com",
-            "date": "2011-01-11"
+            "firstpostdate": "2011-01-11",
+            "firstpostsite": "Impulsive Ponderables"
             }
     },
     "including-javascript-libraries":{
         "title": "A lesson learned in including javascript libraries properly",
         "date": "2014-11-17"
+    },
+    "synchronous-coral-spawning":{
+        "title": "Synchronous spawning in corals and sea urchins",
+        "date": "2014-11-22",
+        "firstpostdate": "2011-05-20",
+        "firstpostsite": "Impulsive Ponderables"
+    },
+    "vibration-and-scent":{
+        "title": "I vibrate, therefore I smell",
+        "date": "2014-11-22",
+        "firstpostdate": "2011-02-16",
+        "firstpostsite": "Impulsive Ponderables"
+    },
+    "elephant-cooperation":{
+        "title": "Elephants learn to cooperate",
+        "date": "2014-11-22",
+        "firstpostdate": "2011-03-13",
+        "firstpostsite": "Impulsive Ponderables"
+    },
+    "norman-foster":{
+        "title": "Norman Foster",
+        "date": "2014-11-22"
     }
 }
