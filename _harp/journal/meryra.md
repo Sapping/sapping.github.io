@@ -2,7 +2,7 @@
 
 Although it was never finished and remains unoccupied, the tomb of Meryra located in Amarna is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.
 
-Meryre or Meryra II was the only person to have without a doubt served as High Priest of Aten. He also held the title of Fan-bearer on the Right Side of the King. Being the king’s right-hand man ensured him a prime burial location in the king’s new city.
+Meryre or Meryra was the only person to have without a doubt served as High Priest of Aten. He also held the title of Fan-bearer on the Right Side of the King. Being the king’s right-hand man ensured him a prime burial location in the king’s new city.
 
 Amarna or as it was formerly known, Akhetaten, meaning ‘Horizon of Aten’, was the city built by Akhenaten. The king built the city to honour the sun, a god he called Aten. During his reign, Akhenaten declared that Aten was the only god in Egypt, and that the only intermediary between Aten and the people was Akhenaten himself.
 
@@ -12,4 +12,4 @@ After Akhenaten’s death, the people returned to their old gods. Many held a gr
 
 Despite it all, a large portion of the tomb has survived for over 3 300 years. Even though no one was buried within it, the tomb has preserved something much more important; knowledge about this pivotal moment in Egyptian history.
 
-[Tomb of Meryra II, Amarna in Egypt](http://www.360cities.net/image/tomb-of-meryra-amarna-egypt)
+[Tomb of Meryra, Amarna in Egypt](http://www.360cities.net/image/tomb-of-meryra-amarna-egypt)
