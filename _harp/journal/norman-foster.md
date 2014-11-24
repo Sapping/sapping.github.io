@@ -3,22 +3,22 @@
 <div class="row">
   <div class="col-xs-12 col-md-6 col-md-push-6">
     <a href="#" class="thumbnail">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Expo_MRT_Station%2C_Jul_06.JPG/1200px-Expo_MRT_Station%2C_Jul_06.JPG" alt="...">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Expo_MRT_Station%2C_Jul_06.JPG/1200px-Expo_MRT_Station%2C_Jul_06.JPG" alt="The Expo MRT Station in Singapore, photograph by Calvin Teo">
     </a>
         <div class="row">
           <div class="col-xs-4 col-md-6">
             <a href="#" class="thumbnail">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/675px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG" alt="...">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/675px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG" alt="30 St Mary Axe, London aka the "Gherkin"">
             </a>
           </div>
           <div class="col-xs-4 col-md-6">
             <a href="#" class="thumbnail">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Torre_Caja_Madrid_%28CTBA%29_12.jpg/640px-Torre_Caja_Madrid_%28CTBA%29_12.jpg" alt="...">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Torre_Caja_Madrid_%28CTBA%29_12.jpg/640px-Torre_Caja_Madrid_%28CTBA%29_12.jpg" alt="Torre Caja Madrid, Madrid, Spain, photograph by Luis García">
             </a>
           </div>
           <div class="col-xs-4 visible-xs visible-sm">
             <a href="#" class="thumbnail">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hearstowernyc.JPG/600px-Hearstowernyc.JPG" alt="...">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hearstowernyc.JPG/600px-Hearstowernyc.JPG" alt="The Heast Tower in New York">
             </a>
           </div>
         </div>
