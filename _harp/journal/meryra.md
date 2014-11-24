@@ -1,8 +1,8 @@
-# Meryra II, right hand of the Heretic King
+# Meryra, right hand of the Heretic King
 
 Although it was never finished and remains unoccupied, the tomb of Meryra located in Amarna is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.
 
-Meryre or Meryra II was the only person to have without a doubt served as High Priest of Aten. He was also superintendent of the queen Nefertiti, Royal scribe, Steward, Overseer of the Two Treasuries, Overseer of the Royal Harem of Nefertiti  and Fan-bearer on the Right Side of the King. Being the king’s right-hand man ensured him a prime burial location in the king’s new city.
+Meryre or Meryra II was the only person to have without a doubt served as High Priest of Aten. He also held the title of Fan-bearer on the Right Side of the King. Being the king’s right-hand man ensured him a prime burial location in the king’s new city.
 
 Amarna or as it was formerly known, Akhetaten, meaning ‘Horizon of Aten’, was the city built by Akhenaten. The king built the city to honour the sun, a god he called Aten. During his reign, Akhenaten declared that Aten was the only god in Egypt, and that the only intermediary between Aten and the people was Akhenaten himself.
 
