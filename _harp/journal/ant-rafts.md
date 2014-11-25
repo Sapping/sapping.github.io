@@ -29,7 +29,7 @@ Any ants that are on the bottom of the raft are then left with pockets of air, w
 
 **Additional Reading and References:**
 
-1.[http://antlab.gatech.edu/antlab/The_Ant_Raft.html](http://antlab.gatech.edu/antlab/The_Ant_Raft.html)
+1. [http://antlab.gatech.edu/antlab/The_Ant_Raft.html](http://antlab.gatech.edu/antlab/The_Ant_Raft.html)
 
 Images via [EncyclopediaOfLife](http://www.eol.org) and [antlab.gatech.edu](http://antlab.gatech.edu)
 

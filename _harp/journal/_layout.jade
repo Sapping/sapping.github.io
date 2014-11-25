@@ -7,7 +7,7 @@ block head
         script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
         script(src="../js/bootstrap.min.js")
         meta(name="theme-color",content="#156a8b")
-        title My Journal | Lucas Melin
+        title= title
 
 block navigation
         nav(class="navbar navbar-default navbar-static-top" role="navigation")
@@ -30,7 +30,11 @@ block navigation
 block content
         div(class="container")
             div(class="row")
-                div(class="col-sm-1")
-                div(class="col-sm-10")
+                div.col-sm-1
+                div.col-sm-10(style="padding-bottom:4em")
                     != yield
-                div(class="col-sm-1")
+                    div(class="container")
+                        div.col-sm-10(style="padding-top:3em")
+                            != partial ("article-nav")
+                div.col-sm-1
+
