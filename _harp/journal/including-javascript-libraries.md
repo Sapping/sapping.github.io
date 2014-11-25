@@ -17,7 +17,7 @@ Satisfied with the look of the navigation header, I resized my browser and the n
 
 But when I ran the harp server command from the terminal, the supposedly now collapseable navigation — the navigation still didn't collapse. So of course my first thought was that I referencing an incorrect id in my layout.jade file, or that I was somehow calling a javascript plugin with the wrong name.
 
-I carefully reread the documentation, cheking each id and plugin name. It seemed okay to me. Next, I searched for a separate source of documentation. I found a few articles and even a youtube video, but it really seemed like I had added the lines properly for the navigation header to work.
+I carefully reread the documentation, checking each id and plugin name. It seemed okay to me. Next, I searched for a separate source of documentation. I found a few articles and even a youtube video, but it really seemed like I had added the lines properly for the navigation header to work.
 
 Finally, I figured I'd just comment out all my navigation code and shoehorn in Bootstrap's pure HTMl into my layout.jade. Aha! It didn't work either, so I gave my brain a dope-slap and checked out the two lines of code I had added earlier to include the necessary javascript libraries. I could see that my server was serving them correctly, because they were properly included in the page source. But, crucially, I had messed up the order in which I had added the two files. I quickly switched the order:
 
