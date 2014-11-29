@@ -19,8 +19,7 @@ each article, i in articles
       - prev = articles[i - 1]
       - next = articles[i + 1]
       //- The actual links
-      ul
       if prev
-        a.page-nav(href="#{ prev.slug }") &larr; #{ prev.title }
+        a.btn.btn-default(style="font-size:1.3em; float:left" href="#{ prev.slug }") &larr; #{ prev.title }
       if next
-        a.page-nav(href="#{ next.slug }") #{ next.title } &rarr;
+        a.btn.btn-default(style="font-size:1.3em; float:right" href="#{ next.slug }") #{ next.title } &rarr;
