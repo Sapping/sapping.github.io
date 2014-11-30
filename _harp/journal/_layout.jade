@@ -19,21 +19,21 @@ block head
             ga('send', 'pageview');
 
 block navigation
-        nav.navbar.navbar-default.navbar-static-top(role="navigation")
-            .container-fluid
-                // Brand and toggle button
-                .navbar-header
-                    button.navbar-toggle.collapsed(type="button", data-toggle="collapse" data-target="#nav-header-collapse")
-                        span.sr-only Toggle navigation
-                        span.icon-bar
-                        span.icon-bar
-                        span.icon-bar
-                    a.navbar-brand(href="/") Lucas
-                // Nav links that get toggled
-                #nav-header-collapse.collapse.navbar-collapse
-                    ul.nav.navbar-nav
-                        li.actives(style="font-size:1em")
-                            a(href="/journal") Blog Posts
+    nav.navbar.navbar-default.navbar-static-top(role="navigation")
+        .container-fluid
+            // Brand and toggle button
+            .navbar-header
+                button.navbar-toggle.collapsed(type="button", data-toggle="collapse" data-target="#nav-header-collapse")
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(href="/") Lucas
+            // Nav links that get toggled
+            #nav-header-collapse.collapse.navbar-collapse
+                ul.nav.navbar-nav
+                    li.active
+                        a.nav(href="/journal") Blog Posts
 
 block content
         div.container
