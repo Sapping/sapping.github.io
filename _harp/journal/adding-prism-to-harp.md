@@ -41,7 +41,7 @@ Installing Prism on a Harp webserver is relatively easy, but we'll quickly go ov
 </html>
 ```
 
-Prism can automatically highlight the syntax for us if  we add a language class to the code block. In Markdown, this can be simply added by including a language- class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this ````markup`, which will be converted to a `launguage-markup` class and render as so:
+Prism can automatically highlight the syntax for us if  we add a language class to the code block. In Markdown, this can be simply added by including a language- class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this ````markup`, which will be converted to a `language-markup` class and render as so:
 
 ```markup
 <!DOCTYPE html>
