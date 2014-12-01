@@ -1,4 +1,8 @@
 {
+    "adding-prism-to-harp":{
+        "title": "Adding Prism syntax highlighting to a Harp server",
+        "date": "2014-11-30"
+    },
     "including-javascript-libraries":{
         "title": "A lesson learned in including javascript libraries properly",
         "date": "2014-11-17"

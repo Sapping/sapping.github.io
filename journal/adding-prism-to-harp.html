@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"><link rel="stylesheet" href="/journal/main.css"><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script src="../js/bootstrap.min.js"></script><script src="/prism/prism.js"></script><meta name="theme-color" content="#156a8b"><title></title><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<!DOCTYPE html><html><head><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"><link rel="stylesheet" href="/journal/main.css"><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><script src="../js/bootstrap.min.js"></script><script src="/prism/prism.js"></script><meta name="theme-color" content="#156a8b"><title>Adding Prism syntax highlighting to a Harp server</title><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
@@ -21,11 +21,11 @@ ga('send', 'pageview');
 <h2>Installing Prism</h2>
 <ol>
 <li>Now that we&#39;ve dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you&#39;re using something like a main.css or _layout.ejs file.</li>
-<li>In your main.less file, add the line <code>@import &quot;path_to_prism.css/prism&quot;;</code> to the top of the file.</li>
-</ol>
-<p>Note: I had issues with importing into my main.less file a CSS file, and not a less file. Per the <a href="http://lesscss.org/features/#import-options-css">lesscss.org documentation</a>, there should no longer be an issue importing a CSS file, and <a href="http://harpjs.com/blog/v0-14-0-implicit-autoprefixing">Harp v0.14.0</a> includes LESS version 1.7.4, however I still had issues. Changing the prism.css file extension to prism.less solved the problem for me though.</p>
-<ol>
-<li>Finally, add the line <code>script(src=&quot;/path_to_prism.js/prism.js&quot;)</code> to your _layout.jade header block, or <code>&lt;script type=&quot;text/javascript&quot; src=&quot;/path_to_prism.js/prism.js&quot;&gt;&lt;/script&gt;</code> to your Javacript file.</li>
+<li><p>In your main.less file, add the line <code>@import &quot;path_to_prism.css/prism&quot;;</code> to the top of the file.</p>
+<p> Note: I had issues with importing into my main.less file a CSS file, and not a less file. Per the <a href="http://lesscss.org/features/#import-options-css">lesscss.org documentation</a>, there should no longer be an issue importing a CSS file, and <a href="http://harpjs.com/blog/v0-14-0-implicit-autoprefixing">Harp v0.14.0</a> includes LESS version 1.7.4, however I still had issues. Changing the prism.css file extension to prism.less solved the problem for me though.</p>
+</li>
+<li><p>Finally, add the line <code>script(src=&quot;/path_to_prism.js/prism.js&quot;)</code> to your _layout.jade header block, or <code>&lt;script type=&quot;text/javascript&quot; src=&quot;/path_to_prism.js/prism.js&quot;&gt;&lt;/script&gt;</code> to your Javacript file.</p>
+</li>
 </ol>
 <h2>Using Prism</h2>
 <ol>
@@ -55,4 +55,4 @@ ga('send', 'pageview');
     &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 <p>And that&#39;s all there is to it!</p>
-<div class="container"><div style="padding-top:3em" class="col-xs-12"></div></div></div></div></div><div id="footer"><p style="font-size:60%;" class="text-center">Copyright &copy; Lucas Melin 2014</p><p class="text-center"><a href="https://plus.google.com/+LucasMelin/"><i style="padding-right:4px;" class="fa fa-google-plus-square fa-lg"></i></a><a href="http://instagram.com/sapping"><i style="padding-right:4px;" class="fa fa-instagram fa-lg"></i></a><a href="https://github.com/Sapping"><i style="padding-right:4px;" class="fa fa-github fa-lg"></i></a></p></div></html>
+<div class="container"><div style="padding-top:3em" class="col-xs-12"><a style="font-size:0.8em; float:right" href="including-javascript-libraries" class="btn btn-default">A lesson learned in including javascript libraries properly &rarr;</a></div></div></div></div></div><div id="footer"><p style="font-size:60%;" class="text-center">Copyright &copy; Lucas Melin 2014</p><p class="text-center"><a href="https://plus.google.com/+LucasMelin/"><i style="padding-right:4px;" class="fa fa-google-plus-square fa-lg"></i></a><a href="http://instagram.com/sapping"><i style="padding-right:4px;" class="fa fa-instagram fa-lg"></i></a><a href="https://github.com/Sapping"><i style="padding-right:4px;" class="fa fa-github fa-lg"></i></a></p></div></html>
