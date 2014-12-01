@@ -20,6 +20,6 @@ each article, i in articles
       - next = articles[i + 1]
       //- The actual links
       if prev
-        a.btn.btn-default(style="font-size:1.3em; float:left" href="#{ prev.slug }") &larr; #{ prev.title }
+        a.btn.btn-default(style="font-size:0.8em; float:left" href="#{ prev.slug }") &larr; #{ prev.title }
       if next
-        a.btn.btn-default(style="font-size:1.3em; float:right" href="#{ next.slug }") #{ next.title } &rarr;
+        a.btn.btn-default(style="font-size:0.8em; float:right" href="#{ next.slug }") #{ next.title } &rarr;
