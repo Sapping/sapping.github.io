@@ -10,7 +10,7 @@ Satisfied with the look of the navigation header, I resized my browser and the n
 
 "Just a matter of including the Bootstrap javascript libraries and any dependencies and we'll be all set." I thought to myself. So I downloaded the compiled javascript files provided by bootcamp and added them to a folder in my harp server directory, and appended these two lines near the top of my layout.jade document at the root of my server.
 
-```language-javascript
+```javascript
 script(src="/js/bootstrap.min.js")
 script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
 ```
@@ -23,7 +23,7 @@ I carefully reread the documentation, checking each id and plugin name. It seeme
 
 Finally, I figured I'd just comment out all my navigation code and shoehorn in Bootstrap's pure HTML into my layout.jade. Aha! It didn't work either, so I gave my brain a dope-slap and checked out the two lines of code I had added earlier to include the necessary javascript libraries. I could see that my server was serving them correctly, because they were properly included in the page source. But, crucially, I had messed up the order in which I had added the two files. I quickly switched the order:
 
-```language-javascript
+```javascript
 script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
 script(src="/js/bootstrap.min.js")
 ```
