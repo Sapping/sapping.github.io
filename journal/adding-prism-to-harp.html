@@ -14,13 +14,16 @@ ga('send', 'pageview');
 <p>Installing Prism on a Harp webserver is relatively easy, but we&#39;ll quickly go over the steps to follow.</p>
 <h2>Downloading Prism</h2>
 <ol>
-<li>Navigate over to <a href="http://prismjs.com/">prismjs.com</a></li>
-<li>After clicking download, you&#39;ll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.
-3.Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I&#39;ve placed both in a folder named prism.</li>
+<li><p>Navigate over to <a href="http://prismjs.com/">prismjs.com</a></p>
+</li>
+<li><p>After clicking download, you&#39;ll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.</p>
+</li>
 </ol>
+<p>3.Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I&#39;ve placed both in a folder named prism.</p>
 <h2>Installing Prism</h2>
 <ol>
-<li>Now that we&#39;ve dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you&#39;re using something like a main.css or _layout.ejs file.</li>
+<li><p>Now that we&#39;ve dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you&#39;re using something like a main.css or _layout.ejs file.</p>
+</li>
 <li><p>In your main.less file, add the line <code>@import &quot;path_to_prism.css/prism&quot;;</code> to the top of the file.</p>
 <p> Note: I had issues with importing into my main.less file a CSS file, and not a less file. Per the <a href="http://lesscss.org/features/#import-options-css">lesscss.org documentation</a>, there should no longer be an issue importing a CSS file, and <a href="http://harpjs.com/blog/v0-14-0-implicit-autoprefixing">Harp v0.14.0</a> includes LESS version 1.7.4, however I still had issues. Changing the prism.css file extension to prism.less solved the problem for me though.</p>
 </li>
@@ -55,4 +58,4 @@ ga('send', 'pageview');
     &lt;/body&gt;
 &lt;/html&gt;</code></pre>
 <p>And that&#39;s all there is to it!</p>
-<div class="container"><div style="padding-top:3em" class="col-xs-12"><a style="font-size:0.8em; float:right" href="including-javascript-libraries" class="btn btn-default">A lesson learned in including javascript libraries properly &rarr;</a></div></div></div></div></div><div id="footer"><p style="font-size:60%;" class="text-center">Copyright &copy; Lucas Melin 2014</p><p class="text-center"><a href="https://plus.google.com/+LucasMelin/"><i style="padding-right:4px;" class="fa fa-google-plus-square fa-lg"></i></a><a href="http://instagram.com/sapping"><i style="padding-right:4px;" class="fa fa-instagram fa-lg"></i></a><a href="https://github.com/Sapping"><i style="padding-right:4px;" class="fa fa-github fa-lg"></i></a></p></div></html>
+<div class="container"><div style="padding-top:3em" class="col-xs-12"><a style="font-size:0.8em; float:left" href="sitemap" class="btn btn-default">&larr; </a><a style="font-size:0.8em; float:right" href="including-javascript-libraries" class="btn btn-default">A lesson learned in including javascript libraries properly &rarr;</a></div></div></div></div></div><div id="footer"><p style="font-size:60%;" class="text-center">Copyright &copy; Lucas Melin 2014</p><p class="text-center"><a href="https://plus.google.com/+LucasMelin/"><i style="padding-right:4px;" class="fa fa-google-plus-square fa-lg"></i></a><a href="http://instagram.com/sapping"><i style="padding-right:4px;" class="fa fa-instagram fa-lg"></i></a><a href="https://github.com/Sapping"><i style="padding-right:4px;" class="fa fa-github fa-lg"></i></a></p></div></html>
