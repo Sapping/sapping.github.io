@@ -11,12 +11,15 @@ Installing Prism on a Harp webserver is relatively easy, but we'll quickly go ov
 ##Downloading Prism
 
 1. Navigate over to [prismjs.com](http://prismjs.com/)
+
 2. After clicking download, you'll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.
+
 3.Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I've placed both in a folder named prism.
 
 ##Installing Prism
 
 1. Now that we've dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you're using something like a main.css or _layout.ejs file.
+
 2. In your main.less file, add the line `@import "path_to_prism.css/prism";` to the top of the file.
 
     Note: I had issues with importing into my main.less file a CSS file, and not a less file. Per the [lesscss.org documentation](http://lesscss.org/features/#import-options-css), there should no longer be an issue importing a CSS file, and [Harp v0.14.0](http://harpjs.com/blog/v0-14-0-implicit-autoprefixing) includes LESS version 1.7.4, however I still had issues. Changing the prism.css file extension to prism.less solved the problem for me though.
