@@ -40,8 +40,10 @@ block navigation
 block content
         div.container
             div.row
-                div.col-xs-12(style="padding-bottom:4em")
+                div.col-md-2
+                div.col-xs-12.col-md-8(style="padding-bottom:4em")
                     != yield
                     div(class="container")
-                        div.col-xs-12(style="padding-top:3em")
+                        div.col-xs-8(style="padding-top:3em; text-align: center;")
                             != partial ("article-nav")
+                div.col-md-2

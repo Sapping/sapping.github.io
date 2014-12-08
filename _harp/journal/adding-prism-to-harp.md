@@ -8,15 +8,16 @@ What this means is that when you include code blocks, you can have Prism highlig
 
 Installing Prism on a Harp webserver is relatively easy, but we'll quickly go over the steps to follow.
 
-##Downloading Prism
+####Downloading Prism
+
 
 1. Navigate over to [prismjs.com](http://prismjs.com/)
 
 2. After clicking download, you'll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.
 
-3.Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I've placed both in a folder named prism.
+3. Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I've placed both in a folder named prism.
 
-##Installing Prism
+####Installing Prism
 
 1. Now that we've dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you're using something like a main.css or _layout.ejs file.
 
@@ -26,7 +27,7 @@ Installing Prism on a Harp webserver is relatively easy, but we'll quickly go ov
 
 3. Finally, add the line `script(src="/path_to_prism.js/prism.js")` to your _layout.jade header block, or `<script type="text/javascript" src="/path_to_prism.js/prism.js"></script>` to your Javacript file.
 
-##Using Prism
+####Using Prism
 
 1. Now that we've installed Prism, whenever we include code blocks such as the following:
 

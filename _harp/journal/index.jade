@@ -1,13 +1,12 @@
 //meta(http-equiv="refresh", content="1; url=/404.html")
 div(class=container)
-    h1(class="page-title") Journal Posts
-        p
-        ul(class="post-list")
-            each article, slug in public.journal._data
-                li(class="post-item")
-                    a(href="/journal/#{ slug }" class="post-link")
-                        h2(class="post-title") #{ article.title }
-                    h4(class="post-desc") Published #{ article.date }
+    p
+    ul(class="post-list")
+        each article, slug in public.journal._data
+            li(class="post-item")
+                a(href="/journal/#{ slug }" class="post-link")
+                    h2(class="post-title") #{ article.title }
+                    p(class="post-desc") Published #{ article.date }
                         if article.firstpostdate
                             |, originally posted on #{ article.firstpostdate}
 
