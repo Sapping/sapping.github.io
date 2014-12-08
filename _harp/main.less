@@ -1,8 +1,9 @@
 @import "_bootstrap/bootstrap";
 @import "prism/prism";
-
-.jumbotron{
+.jumbotron-scroll{
   background-image: url("/TileableBackground40opacity.png");
+  background-attachment: fixed;
+  background-position: top;
   h1{
     text-shadow: 2px 2px 0 @gray-lighter;
   }
@@ -30,6 +31,13 @@ h1 {
   padding-bottom: 0.3em;
   padding-top:1em;
 }
+#code-icon{
+  color:@brand-success;
+}
+#user-icon{
+  color:@brand-primary;
+}
+
 .vertical-align {
   position: relative;
   top: 50%;

@@ -1,7 +1,4 @@
 {
-    "sitemap": {
-    "layout": false
-    },
     "adding-prism-to-harp":{
         "title": "Adding Prism syntax highlighting to a Harp server",
         "date": "2014-11-30"

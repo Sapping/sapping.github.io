@@ -32,9 +32,9 @@ block navigation
             // Nav links that get toggled
             #nav-header-collapse.collapse.navbar-collapse
                 ul.nav.navbar-nav
-                    li.active
-                        a.nav(href="/journal") Articles
                     li
+                        a.nav(href="/journal") Articles
+                    li.active
                         a.nav(href="/contact") Contact
 
 block content
@@ -42,6 +42,3 @@ block content
             div.row
                 div.col-xs-12(style="padding-bottom:4em")
                     != yield
-                    div(class="container")
-                        div.col-xs-12(style="padding-top:3em")
-                            != partial ("article-nav")
