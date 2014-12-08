@@ -19,26 +19,26 @@ html
                 ga('send', 'pageview');
     block body
         body
-    block navigation
-        nav.navbar.navbar-default.navbar-static-top(role="navigation")
-            .container-fluid
-                // Brand and toggle button
-                .navbar-header
-                    button.navbar-toggle.collapsed(type="button", data-toggle="collapse" data-target="#nav-header-collapse")
-                        span.sr-only Toggle navigation
-                        span.icon-bar
-                        span.icon-bar
-                        span.icon-bar
-                    a.navbar-brand(href="/") Lucas
-                // Nav links that get toggled
-                #nav-header-collapse.collapse.navbar-collapse
-                    ul.nav.navbar-nav
-                        li
-                            a(href="/journal") Articles
-                        li
-                            a(href="/contact") Contact
-    block content
-        != yield
+        block navigation
+            nav.navbar.navbar-default.navbar-static-top(role="navigation")
+                .container-fluid
+                    // Brand and toggle button
+                    .navbar-header
+                        button.navbar-toggle.collapsed(type="button", data-toggle="collapse" data-target="#nav-header-collapse")
+                            span.sr-only Toggle navigation
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                        a.navbar-brand(href="/") Lucas
+                    // Nav links that get toggled
+                    #nav-header-collapse.collapse.navbar-collapse
+                        ul.nav.navbar-nav
+                            li
+                                a(href="/journal") Articles
+                            li
+                                a(href="/contact") Contact
+        block content
+            != yield
     block footer
         #footer
             p.text-center(style="font-size:60%;") Copyright &copy; Lucas Melin 2014
