@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-xs-4 col-md-6">
             <a href="#" class="thumbnail">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/675px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG" alt="30 St Mary Axe, London aka the "Gherkin"">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/30_St_Mary_Axe%2C_%27Gherkin%27.JPG/675px-30_St_Mary_Axe%2C_%27Gherkin%27.JPG" alt="30 St Mary Axe, London aka the Gherkin">
             </a>
           </div>
           <div class="col-xs-4 col-md-6">
@@ -29,8 +29,6 @@
     </a>
   </div>
 </div>
-
-
 
 I've officially found my new favourite architect. Meet [Norman Foster][normanfosterwiki]. I didn't realize until today that many striking buildings that I've come across are actually designed by the same man.
 

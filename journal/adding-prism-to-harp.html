@@ -5,15 +5,13 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-55428024-2', 'auto');
 ga('send', 'pageview');
-</script></head><body></body><nav role="navigation" class="navbar navbar-default navbar-static-top"><div class="container-fluid"><!-- Brand and toggle button--><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#nav-header-collapse" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Lucas</a></div><!-- Nav links that get toggled--><div id="nav-header-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a href="/journal" class="nav">Articles</a></li><li><a href="/contact" class="nav">Contact</a></li></ul></div></div></nav><div class="container"><div class="row"><div class="col-md-2"></div><div style="padding-bottom:4em" class="col-xs-12 col-md-8"><h1>Adding Prism to a Harp server</h1>
-<p>This website is run on a webserver called <a href="http://harpjs.com">Harp</a>. While reading through the <a href="http://harpjs.com/docs/development/markdown">documentation page</a> on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:</p>
+</script></head><body></body><nav role="navigation" class="navbar navbar-default navbar-static-top"><div class="container-fluid"><!-- Brand and toggle button--><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#nav-header-collapse" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Lucas</a></div><!-- Nav links that get toggled--><div id="nav-header-collapse" class="collapse navbar-collapse"><ul class="nav navbar-nav"><li class="active"><a href="/journal" class="nav">Articles</a></li><li><a href="/contact" class="nav">Contact</a></li></ul></div></div></nav><div class="container"><div class="row"><div class="col-md-2"></div><div style="padding-bottom:4em" class="col-xs-12 col-md-8"><h1>Adding Prism to a Harp server</h1><p>This website is run on a webserver called <a href="http://harpjs.com">Harp</a>. While reading through the <a href="http://harpjs.com/docs/development/markdown">documentation page</a> on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:</p>
 <blockquote>
 <p>The language- class name follows the <a href="http://www.w3.org/TR/html5/text-level-semantics.html#the-code-element">W3C</a> and <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-code-element">WHATWG</a> convention for specifying the type of code. This also allows you to style it with a client-side syntax highlighting library, like <a href="http://prismjs.com/">Prism</a>.</p>
 </blockquote>
 <p>What this means is that when you include code blocks, you can have Prism highlight the syntax for you just by specifying the language. This mimics the syntax highlighting behaviour of text editors such as <a href="http://www.sublimetext.com/">SublimeText</a>, and makes code blocks on your website easier to read and understand at a glance.</p>
 <p>Installing Prism on a Harp webserver is relatively easy, but we&#39;ll quickly go over the steps to follow.</p>
-<h4>Downloading Prism</h4>
-<ol>
+<h4>Downloading Prism</h4><ol>
 <li><p>Navigate over to <a href="http://prismjs.com/">prismjs.com</a></p>
 </li>
 <li><p>After clicking download, you&#39;ll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.</p>
@@ -21,8 +19,7 @@ ga('send', 'pageview');
 <li><p>Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I&#39;ve placed both in a folder named prism.</p>
 </li>
 </ol>
-<h4>Installing Prism</h4>
-<ol>
+<h4>Installing Prism</h4><ol>
 <li><p>Now that we&#39;ve dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you&#39;re using something like a main.css or _layout.ejs file.</p>
 </li>
 <li><p>In your main.less file, add the line <code>@import &quot;path_to_prism.css/prism&quot;;</code> to the top of the file.</p>
@@ -31,8 +28,7 @@ ga('send', 'pageview');
 <li><p>Finally, add the line <code>script(src=&quot;/path_to_prism.js/prism.js&quot;)</code> to your _layout.jade header block, or <code>&lt;script type=&quot;text/javascript&quot; src=&quot;/path_to_prism.js/prism.js&quot;&gt;&lt;/script&gt;</code> to your Javacript file.</p>
 </li>
 </ol>
-<h4>Using Prism</h4>
-<ol>
+<h4>Using Prism</h4><ol>
 <li>Now that we&#39;ve installed Prism, whenever we include code blocks such as the following:</li>
 </ol>
 <pre><code>&lt;!DOCTYPE html&gt;
@@ -45,8 +41,8 @@ ga('send', 'pageview');
     &lt;body&gt;
         &lt;h1&gt; Example header &lt;/h1&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
-<p>Prism can automatically highlight the syntax for us if  we add a language class to the code block. In Markdown, this can be simply added by including a language- class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this <code>```markup</code>, which will be converted to a <code>language-markup</code> class and render as so:</p>
+&lt;/html&gt;
+</code></pre><p>Prism can automatically highlight the syntax for us if  we add a language class to the code block. In Markdown, this can be simply added by including a language- class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this <code>```markup</code>, which will be converted to a <code>language-markup</code> class and render as so:</p>
 <pre><code class="language-markup">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
@@ -57,6 +53,6 @@ ga('send', 'pageview');
     &lt;body&gt;
         &lt;h1&gt; Example header &lt;/h1&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
-<p>And that&#39;s all there is to it!</p>
-<div class="container"><div style="padding-top:3em; text-align: center;" class="col-xs-8"><a style="font-size:0.8em;" href="including-javascript-libraries" class="btn btn-default">A lesson learned in including javascript libraries properly &rarr;</a></div></div></div><div class="col-md-2"></div></div></div><div id="footer"><p style="font-size:60%;" class="text-center">Copyright &copy; Lucas Melin 2014</p><p class="text-center"><a href="https://plus.google.com/+LucasMelin/"><span style="font-size:.7em;" class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x fa-inverse"></i></span></a><a href="https://github.com/Sapping"><i style="padding-right:4px;" class="fa fa-github fa-lg"></i></a></p></div></html>
+&lt;/html&gt;
+</code></pre>
+<p>And that&#39;s all there is to it!</p><div class="container"><div style="padding-top:3em; text-align: center;" class="col-xs-8"><a style="font-size:0.8em;" href="including-javascript-libraries" class="btn btn-default">A lesson learned in including javascript libraries properly &rarr;</a></div></div></div><div class="col-md-2"></div></div></div><div id="footer"><p style="font-size:60%;" class="text-center">Copyright &copy; Lucas Melin 2015</p><p class="text-center"><a href="https://github.com/Sapping"><i style="padding-right:4px;" class="fa fa-github fa-lg"></i></a></p></div></html>
