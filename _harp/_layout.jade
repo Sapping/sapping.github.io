@@ -35,14 +35,20 @@ html
                     #nav-header-collapse.collapse.navbar-collapse
                         ul.nav.navbar-nav
                             li
-                                a(href="/journal") Articles
+                                a.nav(href="/resume") Résumé
                             li
-                                a(href="/contact") Contact
+                                a.nav(href="/portfolio") Portfolio
+                            li
+                                a.nav(href="/uses") What I Use
+                            li
+                                a.nav(href="/journal") Journal
+                            li
+                                a.nav(href="/contact") Contact
         block content
             != yield
     block footer
         #footer
-            p.text-center(style="font-size:60%;") Copyright &copy; Lucas Melin 2015
+            p.text-center(style="font-size:60%;") Copyright &copy; Lucas Melin 2016
             p.text-center
                 a(href="https://github.com/Sapping")
                     i.fa.fa-github.fa-lg(style="padding-right:4px;")
