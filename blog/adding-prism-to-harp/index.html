@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Intensely Interested in the intricate">
+    <link rel="shortcut icon" type="image/x-icon" href="http://lucasmelin.comimg/favicon.ico">
+    <title>Adding Prism syntax highlighting to a Harp server</title>
+    <meta name="generator" content="Hugo 0.21" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://lucasmelin.comcss/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://lucasmelin.com"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="http://lucasmelin.com/blog/adding-prism-to-harp/">Adding Prism syntax highlighting to a Harp server</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          November 30, 2014
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<h1 id="adding-prism-to-a-harp-server">Adding Prism to a Harp server</h1>
+
+<p>This website is run on a webserver called <a href="http://harpjs.com">Harp</a>. While reading through the <a href="http://harpjs.com/docs/development/markdown">documentation page</a> on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:</p>
+
+<blockquote>
+<p>The language- class name follows the <a href="http://www.w3.org/TR/html5/text-level-semantics.html#the-code-element">W3C</a> and <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-code-element">WHATWG</a> convention for specifying the type of code. This also allows you to style it with a client-side syntax highlighting library, like <a href="http://prismjs.com/">Prism</a>.</p>
+</blockquote>
+
+<p>What this means is that when you include code blocks, you can have Prism highlight the syntax for you just by specifying the language. This mimics the syntax highlighting behaviour of text editors such as <a href="http://www.sublimetext.com/">SublimeText</a>, and makes code blocks on your website easier to read and understand at a glance.</p>
+
+<p>Installing Prism on a Harp webserver is relatively easy, but we&rsquo;ll quickly go over the steps to follow.</p>
+
+<h4 id="downloading-prism">Downloading Prism</h4>
+
+<ol>
+<li><p>Navigate over to <a href="http://prismjs.com/">prismjs.com</a></p></li>
+
+<li><p>After clicking download, you&rsquo;ll be presented with a list of options to choose from in order to customize your version of Prism. This includes themes, languages Prism will recognize, and even a handful of plugins.</p></li>
+
+<li><p>Download the Javascript and CSS files provided at the bottom, and save them in a folder your webserver can access. For my part, I&rsquo;ve placed both in a folder named prism.</p></li>
+</ol>
+
+<h4 id="installing-prism">Installing Prism</h4>
+
+<ol>
+<li><p>Now that we&rsquo;ve dowloading the necessary files, we need to include both the Javascript and CSS files. For my part, I have a main.less file that Harp converts to CSS and a _layout.jade file the Harp converts to HTML. However, the same idea applies if you&rsquo;re using something like a main.css or _layout.ejs file.</p></li>
+
+<li><p>In your main.less file, add the line <code>@import &quot;path_to_prism.css/prism&quot;;</code> to the top of the file.</p>
+
+<p>Note: I had issues with importing into my main.less file a CSS file, and not a less file. Per the <a href="http://lesscss.org/features/#import-options-css">lesscss.org documentation</a>, there should no longer be an issue importing a CSS file, and <a href="http://harpjs.com/blog/v0-14-0-implicit-autoprefixing">Harp v0.14.0</a> includes LESS version 1.7.4, however I still had issues. Changing the prism.css file extension to prism.less solved the problem for me though.</p></li>
+
+<li><p>Finally, add the line <code>script(src=&quot;/path_to_prism.js/prism.js&quot;)</code> to your _layout.jade header block, or <code>&lt;script type=&quot;text/javascript&quot; src=&quot;/path_to_prism.js/prism.js&quot;&gt;&lt;/script&gt;</code> to your Javacript file.</p></li>
+</ol>
+
+<h4 id="using-prism">Using Prism</h4>
+
+<ol>
+<li>Now that we&rsquo;ve installed Prism, whenever we include code blocks such as the following:</li>
+</ol>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;
+            Example page title
+        &lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt; Example header &lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Prism can automatically highlight the syntax for us if  we add a language class to the code block. In Markdown, this can be simply added by including a language- class right after the three backticks used to open a code-block. For the above code block, we would make sure the line looked like this ```<code>markup</code>, which will be converted to a <code>language-markup</code> class and render as so:</p>
+
+<pre><code class="language-markup">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;
+            Example page title
+        &lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt; Example header &lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>And that&rsquo;s all there is to it!</p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted"><br></p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://lucasmelin.comjs/docs.min.js"></script>
+<script src="http://lucasmelin.comjs/main.js"></script>
+
+<script src="http://lucasmelin.comjs/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

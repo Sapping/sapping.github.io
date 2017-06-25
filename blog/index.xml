@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Lucas Melin</title>
+    <link>http://lucasmelin.com/blog/</link>
+    <description>Recent content in Blogs on Lucas Melin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 30 Nov 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://lucasmelin.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding Prism syntax highlighting to a Harp server</title>
+      <link>http://lucasmelin.com/blog/adding-prism-to-harp/</link>
+      <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/adding-prism-to-harp/</guid>
+      <description>Adding Prism to a Harp server This website is run on a webserver called Harp. While reading through the documentation page on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
+ The language- class name follows the W3C and WHATWG convention for specifying the type of code. This also allows you to style it with a client-side syntax highlighting library, like Prism.</description>
+    </item>
+    
+    <item>
+      <title>Fire (ants) and water don&#39;t mix</title>
+      <link>http://lucasmelin.com/blog/ant-rafts/</link>
+      <pubDate>Mon, 24 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/ant-rafts/</guid>
+      <description>Fire (ants) and water don&amp;rsquo;t mix Native to South America, Red Imported Fire Ants make their homes underground. These nests are subject to flooding during rainy periods. On its own, a single fire ant Solenopsis invicta will struggle to stay afloat in water, and may even drown. Together though, these ants can form living rafts by linking their bodies together. These rafts enable a large group of thousands to stay alive for days or even months at a time.</description>
+    </item>
+    
+    <item>
+      <title>Elephants learn to cooperate</title>
+      <link>http://lucasmelin.com/blog/elephant-cooperation/</link>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/elephant-cooperation/</guid>
+      <description>Elephants learn to cooperate Despite the fact that elephants are known to be highly intelligent, little research has been done to test the extent of their cognitive abilities, primarily due to the size of the animals, which poses significant difficulties and dangers during the course of behavioural testing.
+Recently however, comparative psychologist Joshua Plotnik modified a test previously performed on chimpanzees, in an effort to test the cooperative skills of Asian elephants.</description>
+    </item>
+    
+    <item>
+      <title>I vibrate, therefore I smell</title>
+      <link>http://lucasmelin.com/blog/vibration-and-scent/</link>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/vibration-and-scent/</guid>
+      <description>I vibrate, therefore I smell Your sense of smell depends on olfactory receptors. These receptors bind to oderant molecules and identify them by structure or shape. But what about molecules that are similar in shape? Those should smell enough alike that we can&amp;rsquo;t tell the difference. But here&amp;rsquo;s the catch - we can.
+For example, ethanol and ethanethiol share the same shape. The only difference is that ethanol has an oxygen atom in place of a sulphur atom.</description>
+    </item>
+    
+    <item>
+      <title>Norman Foster</title>
+      <link>http://lucasmelin.com/blog/norman-foster/</link>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/norman-foster/</guid>
+      <description>Norman Foster             I&amp;rsquo;ve officially found my new favourite architect. Meet Norman Foster. I didn&amp;rsquo;t realize until today that many striking buildings that I&amp;rsquo;ve come across are actually designed by the same man.
+Some of his notable works include:
+ The Torre Caja Madrid in Madrid The Reichstag Dome in Berlin The Hearst Tower in New York 30 St Mary Axe aka &amp;ldquo;The Gherkin&amp;rdquo; in London The Leslie L.</description>
+    </item>
+    
+    <item>
+      <title>Synchronous spawning in corals and sea urchins</title>
+      <link>http://lucasmelin.com/blog/synchronous-coral-spawning/</link>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/synchronous-coral-spawning/</guid>
+      <description>Synchronous spawning in corals and sea urchins Reproduction poses certain problems for sessile organisms, since they cannot actively search for a mate. Many types of corals and sea urchins therefore employ a slightly different reproductive technique, releasing gametes into the water where they hopefully will join up with their counterparts to produce a new generation. The ultimate success of this method relies on synchronous spawning to ensure that the male and female gametes actually meet up.</description>
+    </item>
+    
+    <item>
+      <title>A lesson learned in including javascript libraries properly</title>
+      <link>http://lucasmelin.com/blog/including-javascript-libraries/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/including-javascript-libraries/</guid>
+      <description>A lesson learned in including javascript libraries properly I figured I&amp;rsquo;d sit down and quickly add a navigation header to my site just to have it in place, so that I could add links to it later.
+After reading over the Bootstrap documentation, I thought it seemed rather straight-forward, so I quickly whipped up a few lines of Jade into a serviceable navigation header with a few link elements in it — one to the homepage and one to the blog portion.</description>
+    </item>
+    
+    <item>
+      <title>Meryra, right hand of the “Heretic King”</title>
+      <link>http://lucasmelin.com/blog/meryra/</link>
+      <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://lucasmelin.com/blog/meryra/</guid>
+      <description>Meryra, right hand of the Heretic King Although it was never finished and remains unoccupied, the tomb of Meryra located in Amarna is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.
+Meryre or Meryra was the only person to have without a doubt served as High Priest of Aten. He also held the title of Fan-bearer on the Right Side of the King.</description>
+    </item>
+    
+  </channel>
+</rss>

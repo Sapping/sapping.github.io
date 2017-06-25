@@ -1,137 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-    <loc>http://wwww.lucasmelin.com/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/contact/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/adding-prism-to-harp</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-30T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/ant-rafts</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-24T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/article-nav</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/elephant-cooperation</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-22T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/including-javascript-libraries</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-17T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/meryra</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-17T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/norman-foster</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-22T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/synchronous-coral-spawning</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-22T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/journal/vibration-and-scent</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2014-11-22T00:00:00.000Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/portfolio/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/resume/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/uses/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/contact/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/adding-prism-to-harp</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/ant-rafts</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/article-nav</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/elephant-cooperation</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/including-javascript-libraries</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/meryra</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/norman-foster</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/synchronous-coral-spawning</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
-<url>
-    <loc>http://wwww.lucasmelin.com/www/journal/vibration-and-scent</loc>
-    <changefreq>daily</changefreq>
-    <lastmod>2016-05-17T19:04:29.563Z</lastmod>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://lucasmelin.com/projects/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/adding-prism-to-harp/</loc>
+    <lastmod>2014-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/ant-rafts/</loc>
+    <lastmod>2014-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/elephant-cooperation/</loc>
+    <lastmod>2014-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/vibration-and-scent/</loc>
+    <lastmod>2014-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/norman-foster/</loc>
+    <lastmod>2014-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/synchronous-coral-spawning/</loc>
+    <lastmod>2014-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/including-javascript-libraries/</loc>
+    <lastmod>2014-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/meryra/</loc>
+    <lastmod>2014-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/blog/</loc>
+    <lastmod>2014-11-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/tags/projects/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/categories/projects/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://lucasmelin.com/tags/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
 </urlset>
