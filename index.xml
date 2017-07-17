@@ -6,17 +6,54 @@
     <description>Recent content on Lucas Melin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
+    <copyright>true</copyright>
+    <lastBuildDate>Tue, 27 Jun 2017 17:39:21 -0700</lastBuildDate>
     
 	<atom:link href="http://lucasmelin.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Projects</title>
-      <link>http://lucasmelin.com/projects/</link>
-      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      <title>About</title>
+      <link>http://lucasmelin.com/about/</link>
+      <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
-      <guid>http://lucasmelin.com/projects/</guid>
+      <guid>http://lucasmelin.com/about/</guid>
+      <description>I&amp;rsquo;m Lucas Melin, a Computer Engineering Technology - Computing Science student at Algonquin College, and a Quality Assurance Analyst at the Bank of Canada. View my code on GitHub, connect with me on LinkedIn, and check out my work below.</description>
+    </item>
+    
+    <item>
+      <title>December 31</title>
+      <link>http://lucasmelin.com/</link>
+      <pubDate>Wed, 10 May 2017 21:35:17 -0700</pubDate>
+      
+      <guid>http://lucasmelin.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java Todo List</title>
+      <link>http://lucasmelin.com/</link>
+      <pubDate>Wed, 10 May 2017 21:35:17 -0700</pubDate>
+      
+      <guid>http://lucasmelin.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reddit Evernote Saver</title>
+      <link>http://lucasmelin.com/</link>
+      <pubDate>Wed, 10 May 2017 21:35:17 -0700</pubDate>
+      
+      <guid>http://lucasmelin.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spoonerize</title>
+      <link>http://lucasmelin.com/</link>
+      <pubDate>Wed, 10 May 2017 21:35:17 -0700</pubDate>
+      
+      <guid>http://lucasmelin.com/</guid>
       <description></description>
     </item>
     
@@ -26,7 +63,7 @@
       <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/adding-prism-to-harp/</guid>
-      <description>Adding Prism to a Harp server This website is run on a webserver called Harp. While reading through the documentation page on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
+      <description>This website is run on a webserver called Harp. While reading through the documentation page on using Markdown to write pages, I came across an interesting few lines near the bottom of the page, which discussed how to include fenced code blocks on a page:
  The language- class name follows the W3C and WHATWG convention for specifying the type of code. This also allows you to style it with a client-side syntax highlighting library, like Prism.</description>
     </item>
     
@@ -36,7 +73,7 @@
       <pubDate>Mon, 24 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/ant-rafts/</guid>
-      <description>Fire (ants) and water don&amp;rsquo;t mix Native to South America, Red Imported Fire Ants make their homes underground. These nests are subject to flooding during rainy periods. On its own, a single fire ant Solenopsis invicta will struggle to stay afloat in water, and may even drown. Together though, these ants can form living rafts by linking their bodies together. These rafts enable a large group of thousands to stay alive for days or even months at a time.</description>
+      <description>Native to South America, Red Imported Fire Ants make their homes underground. These nests are subject to flooding during rainy periods. On its own, a single fire ant Solenopsis invicta will struggle to stay afloat in water, and may even drown. Together though, these ants can form living rafts by linking their bodies together. These rafts enable a large group of thousands to stay alive for days or even months at a time.</description>
     </item>
     
     <item>
@@ -45,8 +82,8 @@
       <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/elephant-cooperation/</guid>
-      <description>Elephants learn to cooperate Despite the fact that elephants are known to be highly intelligent, little research has been done to test the extent of their cognitive abilities, primarily due to the size of the animals, which poses significant difficulties and dangers during the course of behavioural testing.
-Recently however, comparative psychologist Joshua Plotnik modified a test previously performed on chimpanzees, in an effort to test the cooperative skills of Asian elephants.</description>
+      <description>Despite the fact that elephants are known to be highly intelligent, little research has been done to test the extent of their cognitive abilities, primarily due to the size of the animals, which poses significant difficulties and dangers during the course of behavioural testing.
+Recently however, comparative psychologist Joshua Plotnik modified a test previously performed on chimpanzees, in an effort to test the cooperative skills of Asian elephants. This experiment was conducted using twelve male and female elephants at the Thai Elephant Conservation Center in Lampang, Thailand.</description>
     </item>
     
     <item>
@@ -55,7 +92,7 @@ Recently however, comparative psychologist Joshua Plotnik modified a test previo
       <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/vibration-and-scent/</guid>
-      <description>I vibrate, therefore I smell Your sense of smell depends on olfactory receptors. These receptors bind to oderant molecules and identify them by structure or shape. But what about molecules that are similar in shape? Those should smell enough alike that we can&amp;rsquo;t tell the difference. But here&amp;rsquo;s the catch - we can.
+      <description>Your sense of smell depends on olfactory receptors. These receptors bind to oderant molecules and identify them by structure or shape. But what about molecules that are similar in shape? Those should smell enough alike that we can&amp;rsquo;t tell the difference. But here&amp;rsquo;s the catch - we can.
 For example, ethanol and ethanethiol share the same shape. The only difference is that ethanol has an oxygen atom in place of a sulphur atom.</description>
     </item>
     
@@ -65,7 +102,7 @@ For example, ethanol and ethanethiol share the same shape. The only difference i
       <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/norman-foster/</guid>
-      <description>Norman Foster             I&amp;rsquo;ve officially found my new favourite architect. Meet Norman Foster. I didn&amp;rsquo;t realize until today that many striking buildings that I&amp;rsquo;ve come across are actually designed by the same man.
+      <description>I&amp;rsquo;ve officially found my new favourite architect. Meet Norman Foster. I didn&amp;rsquo;t realize until today that many striking buildings that I&amp;rsquo;ve come across are actually designed by the same man.
 Some of his notable works include:
  The Torre Caja Madrid in Madrid The Reichstag Dome in Berlin The Hearst Tower in New York 30 St Mary Axe aka &amp;ldquo;The Gherkin&amp;rdquo; in London The Leslie L.</description>
     </item>
@@ -76,7 +113,7 @@ Some of his notable works include:
       <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/synchronous-coral-spawning/</guid>
-      <description>Synchronous spawning in corals and sea urchins Reproduction poses certain problems for sessile organisms, since they cannot actively search for a mate. Many types of corals and sea urchins therefore employ a slightly different reproductive technique, releasing gametes into the water where they hopefully will join up with their counterparts to produce a new generation. The ultimate success of this method relies on synchronous spawning to ensure that the male and female gametes actually meet up.</description>
+      <description>Reproduction poses certain problems for sessile organisms, since they cannot actively search for a mate. Many types of corals and sea urchins therefore employ a slightly different reproductive technique, releasing gametes into the water where they hopefully will join up with their counterparts to produce a new generation. The ultimate success of this method relies on synchronous spawning to ensure that the male and female gametes actually meet up. However, there is much debate as to the nature of the cue itself.</description>
     </item>
     
     <item>
@@ -85,7 +122,7 @@ Some of his notable works include:
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/including-javascript-libraries/</guid>
-      <description>A lesson learned in including javascript libraries properly I figured I&amp;rsquo;d sit down and quickly add a navigation header to my site just to have it in place, so that I could add links to it later.
+      <description>I figured I&amp;rsquo;d sit down and quickly add a navigation header to my site just to have it in place, so that I could add links to it later.
 After reading over the Bootstrap documentation, I thought it seemed rather straight-forward, so I quickly whipped up a few lines of Jade into a serviceable navigation header with a few link elements in it — one to the homepage and one to the blog portion.</description>
     </item>
     
@@ -95,7 +132,7 @@ After reading over the Bootstrap documentation, I thought it seemed rather strai
       <pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://lucasmelin.com/blog/meryra/</guid>
-      <description>Meryra, right hand of the Heretic King Although it was never finished and remains unoccupied, the tomb of Meryra located in Amarna is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.
+      <description>Although it was never finished and remains unoccupied, the tomb of Meryra located in Amarna is notable since it casts a light on an important time in Egyptian history; that of the “Heretic Pharaoh” Akhenaten and his wife Nefertiti.
 Meryre or Meryra was the only person to have without a doubt served as High Priest of Aten. He also held the title of Fan-bearer on the Right Side of the King.</description>
     </item>
     
