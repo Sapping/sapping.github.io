@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/lucasmelin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://lucasmelin.com
+  * I am lucasmelin (https://keybase.io/lucasmelin) on keybase.
+  * I have a public key with fingerprint 2E63 0DD5 92C5 5200 81E2  37AD 7A75 CC9E 065D D11A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f5a1398a27dd8be7b2754fe783d19dd751c82d566104c9dffb6a035e6d79736f0a",
+      "fingerprint": "2e630dd592c5520081e237ad7a75cc9e065dd11a",
+      "host": "keybase.io",
+      "key_id": "7a75cc9e065dd11a",
+      "kid": "010181b873f88c1b784023d1d7a24c91d4137354f2fbe24e2aa78fdc44f3625b32950a",
+      "uid": "3f9b38809dcdb5a3cd95c58fb555e919",
+      "username": "lucasmelin"
+    },
+    "service": {
+      "hostname": "lucasmelin.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1508509835,
+  "expire_in": 157680000,
+  "prev": "8739a2457482457fd9e449374ed05c10e8d664eff1f8ef3cc386171bd5a2060e",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMNoAnicbVJrTB1FGL23pQiUpiJUWkCvLqJIyWX2Mfu4QKFVLAKRkvRhDV6yuzML
+Sy93r/dFoUAUovKwBSKRGsIjtUTtA8GkFoq2obSisUQBW0XBRoUEW6wI0iaNirvE
+/tL5MZP55pzzne9kLm1Yawoxl/uudAS+OBZl/mKozWfafyOo4RAhaaiMsB0iDuDV
+AzsQ9ngLDqiIsBGApIACRZIWeJHiEOIlzEkUBxkFczyNSAEhDpIyTyHIsiRgZAEp
+isSKgIaYRZzA0awCRCKRUFRnIXa73KrTq8tSmKUBQlCgZAgpAHgSUzQnIk7koCwL
+GLAQIZI0iEWax2Do5iTRg62qptf0S8Gqvf/B3/MNSJ6UeI5WeF4mJY5nAKX71TtQ
+ukkSMSTN0foYlCJhisGUKHK8gmSGUWiWghJNCXDVt29VjlYEieZ5ICAZSVCkZSRA
+GfKKBCHEAikYQA92O8USrKMdPln0lGCH6iQqEwm97ldlbERrzPIfjFXWSnS+y615
+NVlz6G9FXq/LZlC9ZS4DW4qlgn9VCiTVifQodYIfuz2q5iRspI6UvaohS0LAQyDw
+NEwk8EGX6sYFqoGAHMsDfRltsF+X1IMR9CQgx/DGriABM4xAcwxGAMokwDxiWQYr
+CqnwWKFlmeZZkiMlBEUKsAATxlwvOTVdm9R9ioW6pkctdIpenxsTlReH8gNM5hBT
+4Lo1xh8zhQTff+/n3V7ZuFKUMCh2tYz9EeJzB1LjmdVbhh5MuVQ2d3Dy5VPtA9nl
+Sfa7qXv50PvME7sBvVWttBHVSfaZvOF1yXVdPYd3jvqONzVNONVjT5efjaqFb9xc
+IoiWqzY+aGJqc0mp5cKb/XnEp+eBe3DbXTrna1fasxV/2V3L3xduW1pEcZ7PSou7
+doTV5EXOMdnLkY6ofUM7F4vLbk/KS9f//Ijb4/2yc8/azKt/D6zpPAHCK1LVXZ/v
+HwjetHLj3W8Tg6YH23rOMudKWnNqUX/TD/NnKp5Kjl8//pZcNxxwa/MTl8P6pqLT
+kvJP14RcqwububzD2/DkdzEjrQsjtd2v7/Z3ftgs5l9Py5h95mTDL+05y9UO7UzK
+Eev8vsiHHq4XkrcXnX57KTQh0l4V8V7LEdQw2/98L/mj7ZGq3PTM7J72FzJA+nhC
+9hZX+/i83RIhHn1Mi56WW+tB4s91U7d+vVl18k6ppUb7ZPTYO6MZ3XFhCws1AY0p
+zf7fcXLoKPwgIuvo1rlXLIsRueb3w7tbQK5WLNdv6o2PB90/VTdaJnrB43eKG8oj
+YjHp/irVard0xQUH7wrPav5tQ++gX6yMfWBvDP2a15qTN3JRnUwqf9X0aKy1ua9q
+zfnSC8T6dGd/YV/QqeCY47m156InFq99k9Pm3ej3fLx82Dz2XKOtwrF0YrhDvjKb
+Nd0x47T8AyZHtCE=
+=Tder
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lucasmelin
+
+==================================================================
